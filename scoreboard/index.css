@@ -1,0 +1,46 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #eee;
+  font-family: Arial, sans-serif;
+}
+
+.scoreboard {
+  display: flex;
+  justify-content: space-around;
+  background: #13294b;
+  padding: 20px 40px;
+  border-radius: 10px;
+  color: white;
+  width: 400px;
+}
+
+.team {
+  text-align: center;
+}
+
+.score {
+  font-size: 60px;
+  font-family: 'Courier New', Courier, monospace;
+  background: black;
+  color: #ff4b5c;
+  padding: 20px;
+  border-radius: 8px;
+  margin: 10px 0;
+}
+
+.buttons button {
+  background: transparent;
+  border: 1px solid #ddd;
+  color: white;
+  padding: 6px 12px;
+  margin: 4px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.buttons button:hover {
+  background: #1e3d6b;
+}
